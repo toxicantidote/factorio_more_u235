@@ -8,7 +8,7 @@
 --]]
 data:extend({
   {
-    type = "int-setting",
+    type = "double-setting",
     name = "more-u235-chance",
     setting_type = "startup",
     minimum_value = 5,

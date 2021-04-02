@@ -24,12 +24,12 @@ data:extend(
 			{
 			  {
 				name = "uranium-235",
-				probability = math.floor(settings.startup["more-u235-chance"].value / 100),
+				probability = (settings.startup["more-u235-chance"].value / 100),
 				amount = 1
 			  },
 			  {
 				name = "uranium-238",
-				probability = math.floor(100 - (settings.startup["more-u235-chance"].value / 100)),
+				probability = (1.0 - (settings.startup["more-u235-chance"].value / 100)),
 				amount = 1
 			  }
 			}
@@ -46,7 +46,7 @@ data:extend(
 			subgroup = "intermediate-product",
 			order = "r[uranium-processing]-c[kovarex-enrichment-process]",
 			main_product = "",
-			results = {{"uranium-235", math.floor(100 - (settings.startup["more-u235-chance"].value / 2))}, {"uranium-238", math.floor(settings.startup["more-u235-chance"].value / 2)}},
+			results = {{"uranium-235", math.floor((100 - settings.startup["more-u235-chance"].value) / 2)}, {"uranium-238", math.floor(settings.startup["more-u235-chance"].value) / 2}},
 			allow_decomposition = false
 		  },
 	}

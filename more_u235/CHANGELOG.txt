@@ -1,3 +1,14 @@
+----------------------------------------
+Version: 0.0.3
+Date: 2020.04.02
+  About:
+    - Fixed my silly maths that was resulting in bogus yield of each element.
+----------------------------------------
+Version: 0.0.2
+Date: 2020.04.02
+  About:
+    - Fixed dependencies (should conflict with generous recipes, not depend on it optionally)
+----------------------------------------
 Version: 0.0.1
 Date: 2020.04.02
   About:
