@@ -2,7 +2,7 @@
 
 https://toxicantidote.net/articles/coding/lua-factorio-more-u235.shtml
 
-Sick of waiting forever for Uranium-235 production? This mod allows you to configure the chance of uranium-235 production at the expense of uranium-238 production.
+Sick of waiting forever for Uranium-235 production? This mod boosts production of 235.
 
 Affects uranium refinement and enrichment in the base game.
 
