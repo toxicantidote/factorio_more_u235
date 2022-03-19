@@ -2,7 +2,7 @@
   "name": "more_u235",
   "version": "0.0.6",
   "title": "More Uranium-235",
-  "author": "nibbler",
+  "author": "toxicantidote",
   "homepage": "https://toxicantidote.net/articles/coding/lua-factorio-more-u235.shtml",
   "description": "Changes Kovarex and uranium processing recipes to yield more U-235",
   "factorio_version": "1.1",
