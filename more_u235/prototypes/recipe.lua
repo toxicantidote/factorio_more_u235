@@ -23,7 +23,7 @@ data:extend(
 			results =
                 {
                     {"uranium-235", 2},
-                    {"uranium-238", 2},
+                    {"uranium-238", 3},
                 }
 		  },
 		  {
