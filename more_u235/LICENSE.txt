@@ -1,0 +1,6 @@
+Project homepage: https://toxicantidote.net/articles/coding/lua-factorio-more-u235.shtml
+Issues: https://github.com/toxicantidote/factorio_more_u235
+
+Distributed under the terms of the Creative Commons BY-NC-SA 4.0 license
+
+See https://creativecommons.org/licenses/by-nc-sa/4.0/ for full details.
