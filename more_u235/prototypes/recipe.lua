@@ -14,7 +14,7 @@ data:extend(
 			category = "centrifuging",
 			ingredients =
                 {
-                    {"uranium-ore", 10}
+                    {type = "item", name = "uranium-ore", amount = 10}
                 },
 			icon = "__base__/graphics/icons/uranium-processing.png",
 			icon_size = 64, icon_mipmaps = 4,
@@ -22,8 +22,8 @@ data:extend(
 			order = "k[uranium-processing]",
 			results =
                 {
-                    {"uranium-235", 2},
-                    {"uranium-238", 3},
+                    {type = "item", name = "uranium-235", amount = 2},
+                    {type = "item", name = "uranium-238", amount = 3},
                 }
 		  },
 		  {
@@ -32,7 +32,11 @@ data:extend(
 			energy_required = 90,
 			enabled = false,
 			category = "centrifuging",
-			ingredients = {{"uranium-235", 40}, {"uranium-238", 5}},
+			ingredients = 
+                {
+                    {type = "item", name = "uranium-235", amount = 40},
+                    {type = "item", name = "uranium-238", amount = 5}
+                },
 			icon = "__base__/graphics/icons/kovarex-enrichment-process.png",
 			icon_size = 64, icon_mipmaps = 4,
 			subgroup = "intermediate-product",
@@ -40,7 +44,7 @@ data:extend(
 			main_product = "",
 			results =
                 {
-                    {"uranium-235", 45},
+                    {type = "item", name = "uranium-235", amount = 45},
                 },
 			allow_decomposition = false
 		  },
